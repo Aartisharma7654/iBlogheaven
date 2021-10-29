@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    /* height: 100px; */
+    align-items: center; 
+    margin-top: 25px;
+     /* background-color: pink;    */
+
+}
+.nav-left{
+
+    display: flex;
+}
+.nav-left span{
+    
+    padding: 10px;
+}
+.nav-left span img{
+    width: 100px;
+    
+}
+
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 110px;
+    font-size: 25px;
+
+}
+.nav-left ul li{
+    list-style: none;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    /* color: black; */
+    margin: 0px 16px;
+    /* border: 2px solid red; */
+    /* font-size: 40px; */
+    font-family: inherit;
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-colour);
+    font-weight: bolder;
+    
+}
+.content{
+    padding: 12px 0px 20px 0px;
+    display: flex;
+    margin-top: 56px;
+    height: 100%;
+    /* background-color: rgb(243, 222, 222);   */
+    position: relative;
+    border-radius: 10px;
+}
+.content::after{
+    content: "";
+    background-image: url("../img/11.svg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.34;
+
+}
+.content-left{
+    font-family: var(--font1);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+
+} 
+.content-right{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-right img{
+    border: 3px solid black;
+    border-radius: 700px;
+    margin-right: 24px;
+}
+.home-articles{
+    /* height: 500px; */
+    padding: 30px;
+    background-color: rgb(240, 235, 239,0.5);  
+    margin-top: 25px;
+    position: relative;
+    
+}
+.year-box{
+     /* background-color: aqua;  */
+    position: absolute;
+    width: 260px;
+    height: 250px;
+    right: 0px;
+    top: 140px;
+    font-size: 20px;
+}
+.year-box div{
+    margin: 14px 0px;
+    font-size: 25px;
+}
+.home-article{
+    
+    display: flex;
+    margin: 30px;
+ /* background-color: red;  */
+}
+.home-article img{
+    height: 200px;
+    width: 300px;
+    
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+
+} 
+
+
+.footer{
+    height: 50px;
+    background-color: var(--main-bg-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    flex-direction: column;
+    font-size: 25px;
+
+}
+.footer a{
+    font-size: 20px;
+    color: white;
+}
